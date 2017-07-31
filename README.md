@@ -4,6 +4,5 @@
 **Carthage具体使用请看文章：[Carthage 的使用——iOS第三方库的管理](http://www.jianshu.com/p/f33972b08648)**
 
 ### 预览
-CarthageDemo.gif
 ![Alt text](https://github.com/XiaoSongWolf/CarthageDemo/raw/master/CarthageDemo.gif)
 
