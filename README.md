@@ -5,5 +5,5 @@
 
 ### 预览
 CarthageDemo.gif
-![Alt text](https://raw.githubusercontent.com/XiaoSongWolf/CarthageDemo/master/CarthageDemo.gif)
+![Alt text](https://github.com/XiaoSongWolf/CarthageDemo/raw/master/CarthageDemo.gif)
 
