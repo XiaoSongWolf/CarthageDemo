@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26869C2E1F2F175E00AB5D0F"
-               BuildableName = "CarthageDemo.app"
-               BlueprintName = "CarthageDemo"
-               ReferencedContainer = "container:CarthageDemo.xcodeproj">
+               BlueprintIdentifier = "D27F18401D3B5878009D7482"
+               BuildableName = "HudDemoTV.app"
+               BlueprintName = "HudDemoTV"
+               ReferencedContainer = "container:HudDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26869C471F2F175E00AB5D0F"
-               BuildableName = "CarthageDemoTests.xctest"
-               BlueprintName = "CarthageDemoTests"
-               ReferencedContainer = "container:CarthageDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26869C521F2F175E00AB5D0F"
-               BuildableName = "CarthageDemoUITests.xctest"
-               BlueprintName = "CarthageDemoUITests"
-               ReferencedContainer = "container:CarthageDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26869C2E1F2F175E00AB5D0F"
-            BuildableName = "CarthageDemo.app"
-            BlueprintName = "CarthageDemo"
-            ReferencedContainer = "container:CarthageDemo.xcodeproj">
+            BlueprintIdentifier = "D27F18401D3B5878009D7482"
+            BuildableName = "HudDemoTV.app"
+            BlueprintName = "HudDemoTV"
+            ReferencedContainer = "container:HudDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26869C2E1F2F175E00AB5D0F"
-            BuildableName = "CarthageDemo.app"
-            BlueprintName = "CarthageDemo"
-            ReferencedContainer = "container:CarthageDemo.xcodeproj">
+            BlueprintIdentifier = "D27F18401D3B5878009D7482"
+            BuildableName = "HudDemoTV.app"
+            BlueprintName = "HudDemoTV"
+            ReferencedContainer = "container:HudDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26869C2E1F2F175E00AB5D0F"
-            BuildableName = "CarthageDemo.app"
-            BlueprintName = "CarthageDemo"
-            ReferencedContainer = "container:CarthageDemo.xcodeproj">
+            BlueprintIdentifier = "D27F18401D3B5878009D7482"
+            BuildableName = "HudDemoTV.app"
+            BlueprintName = "HudDemoTV"
+            ReferencedContainer = "container:HudDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

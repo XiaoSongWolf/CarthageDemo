@@ -1,0 +1,18 @@
+{
+  "iOS" : [
+    {
+      "hash" : "587986e2e1c9f214bf170d9c25016d479a1a024cf81a606fdd73356134e32c7f",
+      "name" : "MBProgressHUD"
+    }
+  ],
+  "commitish" : "1.0.0",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+
+  ]
+}

@@ -15,6 +15,7 @@
 		26869C421F2F175E00AB5D0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26869C401F2F175E00AB5D0F /* LaunchScreen.storyboard */; };
 		26869C4D1F2F175E00AB5D0F /* CarthageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26869C4C1F2F175E00AB5D0F /* CarthageDemoTests.m */; };
 		26869C581F2F175E00AB5D0F /* CarthageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26869C571F2F175E00AB5D0F /* CarthageDemoUITests.m */; };
+		26869C671F2F233C00AB5D0F /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26869C661F2F233C00AB5D0F /* MBProgressHUD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		26869C531F2F175E00AB5D0F /* CarthageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26869C571F2F175E00AB5D0F /* CarthageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarthageDemoUITests.m; sourceTree = "<group>"; };
 		26869C591F2F175E00AB5D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26869C661F2F233C00AB5D0F /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26869C671F2F233C00AB5D0F /* MBProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				26869C4B1F2F175E00AB5D0F /* CarthageDemoTests */,
 				26869C561F2F175E00AB5D0F /* CarthageDemoUITests */,
 				26869C301F2F175E00AB5D0F /* Products */,
+				26869C651F2F233B00AB5D0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +144,14 @@
 			path = CarthageDemoUITests;
 			sourceTree = "<group>";
 		};
+		26869C651F2F233B00AB5D0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26869C661F2F233C00AB5D0F /* MBProgressHUD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,6 +162,7 @@
 				26869C2B1F2F175E00AB5D0F /* Sources */,
 				26869C2C1F2F175E00AB5D0F /* Frameworks */,
 				26869C2D1F2F175E00AB5D0F /* Resources */,
+				26869C681F2F244600AB5D0F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -270,6 +283,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26869C681F2F244600AB5D0F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/MBProgressHUD.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/Carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26869C2B1F2F175E00AB5D0F /* Sources */ = {
@@ -428,6 +459,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E6233Y4S2J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CarthageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fayuan.CarthageDemo;
@@ -440,6 +475,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E6233Y4S2J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CarthageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fayuan.CarthageDemo;
