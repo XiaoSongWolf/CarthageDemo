@@ -5,4 +5,4 @@
 
 ### 预览
 
-！[Alt text](https://github.com/XiaoSongWolf/CarthageDemo/blob/master/CarthageDemo.gif)
+！[Alt text](https://github.com/XiaoSongWolf/CarthageDemo/raw/master/CarthageDemo.gif)
